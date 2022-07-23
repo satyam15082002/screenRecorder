@@ -1,0 +1,64 @@
+*,*::before,*::after
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    margin-bottom: 40vh;
+}
+.controls
+{
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+}
+.controls button::first-letter
+{
+    font-size: 1.5rem;
+}
+.controls button
+{
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+.video-grid
+{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.5rem;
+}
+.video-grid h1
+{
+    grid-column: span 3;
+    text-align: center;
+    background-color: aliceblue;
+}
+.video-grid a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #22D3EE;
+}
+video
+{
+    width: 100%;
+    background-color: black;
+    object-fit: contain;
+}
+.hide
+{
+    display: none;
+}
+#main-video
+{
+    height: 90vh;
+    width: 100vw;
+}

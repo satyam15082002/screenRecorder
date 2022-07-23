@@ -1,0 +1,17 @@
+{
+  "name": "screen_recorder",
+  "version": "1.0.0",
+  "description": "Only computer and pc browser support this project because screen sharing feature only available in computer.\r Project Link:  https://satyam15082002.github.io/Screen_Recorder/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

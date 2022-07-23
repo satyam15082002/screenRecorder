@@ -4,4 +4,4 @@ app.use(express.static('./'))
 app.get("/",(req,res)=>{
     res.sendFile('index.html');
 })
-app.listen(1000);
+app.listen(process.env.PORT||1000);
